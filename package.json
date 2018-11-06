@@ -1,0 +1,28 @@
+{
+  "name": "tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "watch": "gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-parcel": "^0.3.5",
+    "parcel": "^1.10.3",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.4.9",
+    "moment": "^2.22.2",
+    "vue": "^2.5.17",
+    "xlsx": "^0.14.0"
+  }
+}

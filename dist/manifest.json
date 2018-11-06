@@ -1,0 +1,22 @@
+{
+  "name": "数说聚合小工具",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "run_at": "document_end",
+    "js": ["./content.js"]
+  }],
+  "externally_connectable": {
+    "matches": ["*://*.datastory.com.cn/*", "https://cdn.jsdelivr.net/*"]
+  },
+  "web_accessible_resources": [
+    "pages/*"
+  ]
+}
