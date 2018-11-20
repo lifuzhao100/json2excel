@@ -1,5 +1,5 @@
-import xlsx from './lib/xlsx'
-import moment from './lib/moment'
+import xlsx from 'xlsx'
+import moment from 'moment'
 let data = {}
 function ajax() {
     let xhr = new XMLHttpRequest()
